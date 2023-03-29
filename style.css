@@ -1,0 +1,260 @@
+body {
+    background-color: rgb(29, 66, 62);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+li {
+    padding-left: 3.2552083333333335vw;
+    padding-right: 3.2552083333333335vw;
+}
+
+.icon {
+    padding-left: 3.2552083333333335vw;
+    padding-right: 3.2552083333333335vw;
+}
+
+.barra {
+    display: flex;
+    background-color: black;
+    height: 7.112375533428165vh;
+    font-style: none;
+    justify-content: center;
+    align-items: center;
+
+}
+
+a:hover {
+    background-color: rgb(64, 137, 173);
+}
+
+img {
+    height: auto;
+    width: 100%;
+}
+
+
+
+iframe {
+    width: 32.552083333333336vw;
+    height: 42.67425320056899vh;
+}
+
+section {
+    color: rgb(255, 255, 255);
+}
+
+.iconos {
+    display: flex;
+    padding-right: 1.3020833333333333vw;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+}
+
+input {
+    height: 2.844950213371266vh;
+    width: 13.020833333333334vw;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    font-size: xx-large;
+    padding-left: 1.3020833333333333vw;
+
+}
+
+.arriba {
+    margin-left: 0px;
+}
+
+form {
+    padding-left: 40%;
+    color: rgb(255, 255, 255);
+    padding-top: 7.112375533428165vh;
+    padding-bottom: 7.112375533428165vh;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+.inicio {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: rgb(43, 97, 91);
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 175;
+    padding: 1.3020833333333333vw;
+    width: 13.020833333333334vw;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0.3255208333333333vw;
+}
+
+.inicio span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.inicio span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -1.3020833333333333vw;
+    transition: 0.5s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inicio:hover span {
+    padding-right: 1.3020833333333333vw;
+}
+
+.inicio:hover span:after {
+    opacity: 3;
+    right: 0;
+}
+
+input {
+    background-color: rgb(255, 255, 255);
+    size: 1.3020833333333333vw;
+}
+
+.correo {
+    padding-top: 5.689900426742532vh;
+}
+
+.condiciones {
+    padding-top: 5.689900426742532vh;
+}
+
+button {
+    background-color: rgb(46, 105, 99);
+    color: white;
+    font-size: x-large;
+}
+
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    background-color: #58de2b;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #3c8637;
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #ff9f43;
+    box-shadow: 5px;
+    transform: scale(0.95);
+}
+
+.input-label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.input-field {
+    display: block;
+    padding: 10px;
+    font-size: 16px;
+    color: #000000;
+    background-color: #f7f7f7;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.input-field:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.valid {
+    color: green;
+}
+
+.invalid {
+    color: red;
+}
+
+footer {
+    position: absolute;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: font-size8vw;
+    height: 42.67425320056899vh;
+    background-color: rgb(0, 0, 0);
+}
+
+.texto-footer-padre {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.texto {
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+}
+
+iframe {
+    width: 32.552083333333336vw;
+    height: 42.67425320056899vh;
+}
+
+.redes-sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.icono {
+    color: white;
+}
