@@ -28,3 +28,8 @@ td{
 button{
     font-size: x-large;
 }
+
+
+.fondo-admin{
+    background-color: rgb(112, 164, 9);
+}
