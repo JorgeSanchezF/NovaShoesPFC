@@ -46,7 +46,7 @@ session_start();
             </ul>
         </div>
     </nav>
-    <input class="input-field" type="text" id="search-input" placeholder="Buscar jugador por nombre" onkeyup= buscar()>
+   
     <main class="main-productos">
         <div class="caja">
 
